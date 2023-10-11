@@ -1,0 +1,26 @@
+{
+  "name": "magento-nextjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Avdieiev Serhii aka @taypyc",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.2.3",
+    "graphql": "^15.3.0",
+    "http-proxy-middleware": "^1.0.5",
+    "next": "^13.5.4",
+    "nextjs-progressbar": "^0.0.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reset-css": "^5.0.1",
+    "use-debounce": "^5.0.1"
+  },
+  "devDependencies": {
+    "graphql-tag": "^2.11.0"
+  }
+}
